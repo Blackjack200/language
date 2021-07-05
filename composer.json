@@ -1,0 +1,23 @@
+{
+  "name": "blackjack200/language",
+  "description": "language library for PHP",
+  "type": "library",
+  "require-dev": {
+    "phpstan/phpstan": "^0.12.90"
+  },
+  "require": {
+    "webmozart/path-util": "^2.3"
+  },
+  "license": "GNU AFFERO GENERAL PUBLIC LICENSE",
+  "authors": [
+    {
+      "name": "Blackjack200",
+      "email": "lx826444126@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
